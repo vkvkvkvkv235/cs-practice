@@ -25,3 +25,5 @@ def human_size(n_bytes: int) -> str:
         size /= 1024
         i += 1
     return f"{int(size)} Б" if i == 0 else f"{size:.1f} {units[i]}"
+
+#jsgvh
